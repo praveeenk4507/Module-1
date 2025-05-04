@@ -1,31 +1,35 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+**Experiment No: 1d – Conditional Statements- Conditional Statements – Check Divisibility by 5 and 9**
 
-## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
-## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+**AIM**
 
-## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+To write a Python program to read a number and check whether it is divisible by both 5 and 9 using if-else statement.
 
-char = input("Enter a character: ")
-char_lower = char.lower()
 
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+**ALGORITHM**  
+
+1. Start the program.
+2.Read an integer from the user using input() and convert it to int.
+3. Use the modulus operator % to check if the number is divisible by both 5 and 9.
+4. If divisible by both, print that the number is divisible by both 5 and 9.
+5. Otherwise, print that it is not divisible by both 5 and 9.
+6. End the program.
+
+**PROGRAM**
+**212222080040
+PRAVEENKUMAR G**
+
+a=int(input())
+if(a%5==0 and a%9==0):
+    print("{} is divisible by both 5 and 9".format(a))
 else:
-    print("The given character is NOT a vowel")
-```
+    print("{} is NOT divisible by both 5 and 9".format(a))
 
-## OUTPUT
+**OUTPUT**
 
-## RESULT
+![image](https://github.com/user-attachments/assets/6e6cc5e8-188b-4125-9072-1c5a28fa1334)
+
+
+**RESULT**
+
+Thus the program to read a number and check whether it is divisible by both 5 and 9 using if-else statement has been implemented and executed succssfully.
+
