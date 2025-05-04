@@ -1,29 +1,37 @@
-# Experiment No: 1B- Data Types – Printing Integer Literals
+**Experiment No: 1B- Data Types – Reading and Printing Two Float Values**
 
-## AIM  
-To write a Python program to print the following integer literals: 123, 456, 789.
+**AIM**
 
-## ALGORITHM  
-1. Begin the program.  
-2. Initialize the integer literals `123`, `456`, and `789`.  
-3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
-4. Terminate the program.
+To write a Python program to read and print two float values.
 
-## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+**ALGORITHM** 
+1. Start the program.
+2. Read the first float value from the user using input() and convert it to float using float().
+3. Read the second float value from the user using input() and convert it to float using float().
+4. Use the print() function to display both float values separated by a space.
+5.  End the program.
 
-num1 = 123
-num2 = 456
-num3 = 789
+**PROGRAM**
 
-print(num1)
-print(num2)
-print(num3)
+**212222080040
 
-```
-## OUTPUT
+PRAVEEN KUMAR G*
 
-## RESULT
+float_1=float(input())
+float_2=float(input())
+print(float_1,float_2)
+
+
+
+
+
+
+
+**OUTPUT**
+
+ ![image](https://github.com/user-attachments/assets/53ece4bf-6b41-4be2-961e-d57e3158a318)
+
+
+**RESULT**
+
+The program to read and print two float values has been implemented and executed successfully.
